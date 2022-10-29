@@ -1,0 +1,31 @@
+{
+  "name": "fcc-issue-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "cross-env APP_ENV=development nodemon app/server.js",
+    "test": "mocha --timeout 5000 --recursive --exit --ui tdd tests/"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-date-string": "0.1.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "cross-env": "7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.1.3",
+    "mongodb": "4.11.0",
+    "mongoose": "6.7.0",
+    "nodemon": "2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-issuetracker"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
